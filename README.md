@@ -3,7 +3,7 @@ Library Management System
 
 This is a console-based Library Management System developed using Python and Object-Oriented Programming (OOP) principles. The program allows users to manage books in a library through a simple menu-driven interface.
 The system is built using two main classes:
-1️⃣ Book Class
+### Book Class
 The Book class represents a single book in the library. Each book object contains:
 
 title – The name of the book
@@ -14,7 +14,7 @@ is_issued – A boolean value that tracks whether the book is issued or availabl
 
 By default, a newly added book is marked as available.
 
-2️⃣ Library Class
+### Library Class
 
 The Library class manages the collection of books. It maintains a list of Book objects and provides methods to perform operations such as:
 
@@ -26,7 +26,7 @@ Issue Book – Marks a book as issued if it is available.
 
 Return Book – Marks a previously issued book as returned.
 
-🎯 Key Features
+### Key Features
 Object-Oriented Design
 
 Simple and user-friendly console interface
@@ -38,7 +38,8 @@ Basic error handling (book not found, already issued, etc.)
 Case-insensitive search functionality
 
 functionality
-💻 Technologies Used
+### 
+Technologies Used
 
 Python
 
